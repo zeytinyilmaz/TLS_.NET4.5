@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TLS));
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdbEnable = new System.Windows.Forms.RadioButton();
             this.rdbDisabled = new System.Windows.Forms.RadioButton();
+            this.rdbEnable = new System.Windows.Forms.RadioButton();
             this.btnUygula = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.groupBox1.SuspendLayout();
@@ -48,6 +49,7 @@
             this.columnHeader3});
             this.listView1.GridLines = true;
             this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(11, 12);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(189, 199);
@@ -77,6 +79,17 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
+            // rdbDisabled
+            // 
+            this.rdbDisabled.AutoSize = true;
+            this.rdbDisabled.Location = new System.Drawing.Point(13, 39);
+            this.rdbDisabled.Name = "rdbDisabled";
+            this.rdbDisabled.Size = new System.Drawing.Size(120, 17);
+            this.rdbDisabled.TabIndex = 1;
+            this.rdbDisabled.TabStop = true;
+            this.rdbDisabled.Text = "TLS / SSL Disabled";
+            this.rdbDisabled.UseVisualStyleBackColor = true;
+            // 
             // rdbEnable
             // 
             this.rdbEnable.AutoSize = true;
@@ -88,17 +101,6 @@
             this.rdbEnable.TabStop = true;
             this.rdbEnable.Text = "TLS / SSL Enabled";
             this.rdbEnable.UseVisualStyleBackColor = true;
-            // 
-            // rdbDisabled
-            // 
-            this.rdbDisabled.AutoSize = true;
-            this.rdbDisabled.Location = new System.Drawing.Point(13, 39);
-            this.rdbDisabled.Name = "rdbDisabled";
-            this.rdbDisabled.Size = new System.Drawing.Size(120, 17);
-            this.rdbDisabled.TabIndex = 1;
-            this.rdbDisabled.TabStop = true;
-            this.rdbDisabled.Text = "TLS / SSL Disabled";
-            this.rdbDisabled.UseVisualStyleBackColor = true;
             // 
             // btnUygula
             // 
@@ -128,6 +130,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.listView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(407, 291);
             this.MinimumSize = new System.Drawing.Size(407, 291);
             this.Name = "TLS";
