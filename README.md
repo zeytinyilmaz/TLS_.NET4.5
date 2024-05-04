@@ -10,5 +10,6 @@ Verilen onay ile .Net Fremawork ayarlarını kontrol edip SSL/TLS ayarları içi
 
 Program testleri Windows Server 2016, Windows 10 işletim sistemleri üzerinde .Net Fremawork 8.0 versiyonu ile başarılı bir şekilde gerçekleştirilmiştir.
 
-![image](https://github.com/zeytinyilmaz/TLS_.NET4.5/assets/11462101/ff8c877c-ca37-4528-aa55-a45404ed6951) ![image](https://github.com/zeytinyilmaz/TLS_.NET4.5/assets/11462101/f5afc76a-bf10-4789-837f-29edfaeb420d)
-
+ 
+![image](https://github.com/zeytinyilmaz/TLS_.NET4.5/assets/11462101/62b0d257-758a-4faf-bde1-bead2625218f)
+![image](https://github.com/zeytinyilmaz/TLS_.NET4.5/assets/11462101/d9c5fc86-4703-4ce9-aaa3-3f24dc614511)
